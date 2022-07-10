@@ -1,0 +1,31 @@
+.flex {
+  display: flex;
+
+  border: 1px solid black;
+  height: 30px;
+  width: 280px;
+  align-items: center;
+  border-radius: 30px;
+  text-align: center;
+  margin: auto;
+}
+
+.inputBorder {
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+
+.hoverSearchList {
+  width: 35%;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.hoverSearchList:hover {
+  background-color: teal;
+  color: white;
+  transition: 100ms;
+  font-size: 19px;
+  cursor: pointer;
+}
